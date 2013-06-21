@@ -16,7 +16,7 @@ enable you to create application according to a
 # Liberator's place in the Clojure ecosystem
 
 Liberator resources are ring handlers and fit nicely into
-[ring](https://github.com/ring-clojure/ring), the defacto Clojure
+[Ring](https://github.com/ring-clojure/ring), the defacto Clojure
 web development environment. Typically you will use liberator together
 with a routing library like [compojure](https://github.com/weavejester/compojure)
 and a library to generate the resources' representations. The representations may
@@ -39,7 +39,7 @@ Compatibility with prior releases is a goal but it cannot always be
 guaranteed. Compatibility notes will be added to the interface in 
 the future.</div>
 
-Define your first resource using ````defresource```` defines a new resource (which ultimately is a ring handler).
+Define your first resource using ````defresource````.
 
 {% highlight clojure %}
 (ns example
